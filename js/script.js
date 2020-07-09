@@ -24,13 +24,15 @@ for (var j = 0; j < 5; j++) {
   var numUtente = parseInt(prompt("Inserisci un numero da 1 a 10"));
   arrayNumUtente.push(numUtente);
   console.log(arrayNumUtente);
+
+ }
+ var arrayNumIndovinati = [];
+ if (arrayNumUtente[i] == arrayNumRandom[i] ) {
+ arrayNumIndovinati.push(arrayNumUtente[i]);
+ console.log(arrayNumIndovinati);
  }
 }
-var arrayNumIndovinati = [];
-if (arrayNumUtente[i] == arrayNumRandom[i] ) {
-arrayNumIndovinati.push(arrayNumUtente[i]);
-console.log(arrayNumIndovinati);
-}
+
 
 });
 
