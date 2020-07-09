@@ -21,21 +21,25 @@ setTimeout(myFunction, 3000);
 
 function myFunction(){
   var arrayNumUtente =[];
-  for (var j = 0; j < 5; j++) {
+  var arrayNumIndovinati = [];
 
+  for (var j = 0; j < 5; j++) {
   var numUtente = parseInt(prompt("Inserisci un numero da 1 a 10"));
   arrayNumUtente.push(numUtente);
   console.log(arrayNumUtente);
 
  }
- var arrayNumIndovinati = [];
- if (arrayNumUtente[i] == arrayNumRandom[i] ) {
- arrayNumIndovinati.push(arrayNumUtente[i]);
+ for (var x = 0; x < arrayNumRandom.length; x++) {
+
+ if (arrayNumUtente[x] == arrayNumRandom[x] ) {
+ arrayNumIndovinati.push(arrayNumUtente[x]);
  console.log(arrayNumIndovinati);
  }
 }
-
-
+}
+ if(arrayNumIndovinati.includes(arrayNumUtente[x])){
+   
+ }
 });
 
 
