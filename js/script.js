@@ -38,7 +38,7 @@ function myFunction(){
 }
 }
  if(arrayNumIndovinati.includes(arrayNumUtente[x])){
-   
+   console.log();
  }
 });
 
