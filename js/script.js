@@ -8,8 +8,9 @@
 // quali dei numeri da indovinare sono stati individuati
 
 $(document).ready(function(){
-for (var i = 0; i < 5; i++) {
   var arrayNumRandom = [];
+for (var i = 0; i < 5; i++) {
+
   var numRandom = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
   alert(numRandom);
   arrayNumRandom.push(numRandom);
@@ -19,8 +20,9 @@ for (var i = 0; i < 5; i++) {
 setTimeout(myFunction, 3000);
 
 function myFunction(){
-for (var j = 0; j < 5; j++) {
   var arrayNumUtente =[];
+for (var j = 0; j < 5; j++) {
+
   var numUtente = parseInt(prompt("Inserisci un numero da 1 a 10"));
   arrayNumUtente.push(numUtente);
   console.log(arrayNumUtente);
