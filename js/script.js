@@ -16,16 +16,21 @@ for (var i = 0; i < 5; i++) {
   console.log(arrayNumRandom);
 }
 
-setTimeout(myFunction, 30000);
+setTimeout(myFunction, 3000);
 
 function myFunction(){
 for (var j = 0; j < 5; j++) {
   var arrayNumUtente =[];
-  var numUtente = parseInt().prompt("Inserisci un numero da 1 a 10");
+  var numUtente = parseInt(prompt("Inserisci un numero da 1 a 10"));
   arrayNumUtente.push(numUtente);
+  console.log(arrayNumUtente);
  }
 }
-
+var arrayNumIndovinati = [];
+if (arrayNumUtente[i] == arrayNumRandom[i] ) {
+arrayNumIndovinati.push(arrayNumUtente[i]);
+console.log(arrayNumIndovinati);
+}
 
 });
 
